@@ -9,5 +9,8 @@ const userSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    username: {}
+    username: {
+        type: String,
+        required: true
+    }
 });
