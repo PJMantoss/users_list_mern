@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 const mongoose = require("mongoose");
+const UserModel = require("./models/Users");
 
 mongoose.connect("mongodb+srv://mantoss:userlproject@cluster0.v1krpfd.mongodb.net/userslist?retryWrites=true&w=majority");
 
