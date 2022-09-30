@@ -17,6 +17,8 @@ app.get("/getUsers", (req, res) => {
     });
 })
 
+app.post("", () => {})
+
 app.listen(3001, () => {
     console.log('SERVER IS RUNNING!')
 });
