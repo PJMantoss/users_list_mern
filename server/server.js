@@ -17,7 +17,7 @@ app.get("/getUsers", (req, res) => {
     });
 })
 
-app.post("", (req, res) => {})
+app.post("/createUser", (req, res) => {})
 
 app.listen(3001, () => {
     console.log('SERVER IS RUNNING!')
