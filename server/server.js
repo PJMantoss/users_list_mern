@@ -10,9 +10,9 @@ mongoose.connect("mongodb+srv://mantoss:userlproject@cluster0.v1krpfd.mongodb.ne
 app.get("/getUsers", (req, res) => {
     UserModel.find({}, (err, result) => {
         if(err){
-            res.json();
+            res.json(err);
         } else {
-            res.json();
+            res.json(result);
         }
     });
 })
