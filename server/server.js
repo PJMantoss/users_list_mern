@@ -8,7 +8,9 @@ mongoose.connect("mongodb+srv://mantoss:userlproject@cluster0.v1krpfd.mongodb.ne
 
 // API requests
 app.get("/getUsers", (req, res) => {
-    UserModel.find({}, () => {});
+    UserModel.find({}, () => {
+        if(err){} else {}
+    });
 })
 
 app.listen(3001, () => {
