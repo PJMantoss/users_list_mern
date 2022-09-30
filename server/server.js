@@ -19,6 +19,7 @@ app.get("/getUsers", (req, res) => {
 
 app.post("/createUser", async (req, res) => {
     const user = req.body;
+    const newUser = new UserModel(user);
 })
 
 app.listen(3001, () => {
