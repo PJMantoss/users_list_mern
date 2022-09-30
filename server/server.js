@@ -6,6 +6,8 @@ const UserModel = require("./models/Users");
 
 mongoose.connect("mongodb+srv://mantoss:userlproject@cluster0.v1krpfd.mongodb.net/userslist?retryWrites=true&w=majority");
 
+app.use();
+
 // API requests
 app.get("/getUsers", (req, res) => {
     UserModel.find({}, (err, result) => {
