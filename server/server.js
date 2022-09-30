@@ -17,7 +17,9 @@ app.get("/getUsers", (req, res) => {
     });
 })
 
-app.post("/createUser", (req, res) => {})
+app.post("/createUser", (req, res) => {
+    const user = req.body;
+})
 
 app.listen(3001, () => {
     console.log('SERVER IS RUNNING!')
