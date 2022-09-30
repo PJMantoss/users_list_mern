@@ -8,6 +8,7 @@ const cors = require("cors");
 mongoose.connect("mongodb+srv://mantoss:userlproject@cluster0.v1krpfd.mongodb.net/userslist?retryWrites=true&w=majority");
 
 app.use(express.json());
+app.use()
 
 // API requests
 app.get("/getUsers", (req, res) => {
