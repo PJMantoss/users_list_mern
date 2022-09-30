@@ -17,7 +17,7 @@ app.get("/getUsers", (req, res) => {
     });
 })
 
-app.post("/createUser", (req, res) => {
+app.post("/createUser", async (req, res) => {
     const user = req.body;
 })
 
