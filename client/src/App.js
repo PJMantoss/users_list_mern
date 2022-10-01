@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="usersDisplay">
-        {listOfUsers}
+        {listOfUsers.map()}
       </div>
     </div>
   );
