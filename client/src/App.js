@@ -2,7 +2,9 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [listOfUsers, setListOfUsers] = useState([]);
+  const [listOfUsers, setListOfUsers] = useState([
+    {id, name, age, userName}
+  ]);
 
   return (
     <div className="App">
