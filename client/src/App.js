@@ -4,6 +4,8 @@ import './App.css';
 function App() {
   const [listOfUsers, setListOfUsers] = useState([]);
 
+  useEffect(() => {}, [])
+
   return (
     <div className="App">
       <div className="usersDisplay">
