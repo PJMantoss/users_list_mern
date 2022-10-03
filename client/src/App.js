@@ -13,8 +13,8 @@ function App() {
           return(
             <div>
               <h3>Name: {user}</h3>
-              <h4>Age:</h4>
-              <h4>Username:</h4>
+              <h4>Age: {user}</h4>
+              <h4>Username: {user}</h4>
             </div>
           )
         })}
