@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   const [listOfUsers, setListOfUsers] = useState([]);
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    Axios.get().then(() => {})
+  }, [])
 
   return (
     <div className="App">
