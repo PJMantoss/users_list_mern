@@ -25,9 +25,10 @@ function App() {
         })}
       </div>
       <form>
-        <input type="text" placeholder="" />
-        <input type="number" placeholder="" />
-        <input type="text" placeholder="" />
+        <input type="text" placeholder="Name..." />
+        <input type="number" placeholder="Age..." />
+        <input type="text" placeholder="Username..." />
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );
