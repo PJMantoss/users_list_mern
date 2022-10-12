@@ -25,9 +25,9 @@ function App() {
         })}
       </div>
       <form>
-        <input type="" placeholder="" />
-        <input type="" placeholder="" />
-        <input type="" placeholder="" />
+        <input type="text" placeholder="" />
+        <input type="number" placeholder="" />
+        <input type="text" placeholder="" />
       </form>
     </div>
   );
