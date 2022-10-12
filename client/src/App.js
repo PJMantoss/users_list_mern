@@ -28,7 +28,7 @@ function App() {
         <input type="text" placeholder="Name..." />
         <input type="number" placeholder="Age..." />
         <input type="text" placeholder="Username..." />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Create User" onClick={createUser} />
       </form>
     </div>
   );
