@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     Axios.get("http://localhost:3001/getUsers").then((res) => {
-      res.data;
+      setListOfUsers(res.data);
     })
   }, [])
 
