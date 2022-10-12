@@ -24,6 +24,11 @@ function App() {
           )
         })}
       </div>
+      <form>
+        <input type="" placeholder="" />
+        <input type="" placeholder="" />
+        <input type="" placeholder="" />
+      </form>
     </div>
   );
 }
