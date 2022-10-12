@@ -9,7 +9,9 @@ function App() {
     Axios.get("http://localhost:3001/getUsers").then((res) => {
       setListOfUsers(res.data);
     })
-  }, [])
+  }, []);
+
+  const createUser = () => {};
 
   return (
     <div className="App">
