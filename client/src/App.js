@@ -42,21 +42,21 @@ function App() {
           type="text" 
           placeholder="Name..." 
           onChange={e => {
-            setName=(e.target.value)
+            setName(e.target.value)
           }}
         />
         <input 
           type="number" 
           placeholder="Age..." 
           onChange={e => {
-            setAge=(e.target.value)
+            setAge(e.target.value)
           }}
         />
         <input 
           type="text" 
           placeholder="Username..." 
           onChange={e => {
-            setUsername=(e.target.value)
+            setUsername(e.target.value)
           }}
         />
         <input 
