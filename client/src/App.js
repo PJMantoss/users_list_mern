@@ -19,7 +19,7 @@ function App() {
       name,
       age,
       username
-    }).then(() => {
+    }).then(response => {
       alert("USER CREATED");
     })
   };
