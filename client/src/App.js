@@ -48,10 +48,16 @@ function App() {
         <input 
           type="number" 
           placeholder="Age..." 
+          onChange={e => {
+            setAge=(e.target.value)
+          }}
         />
         <input 
           type="text" 
           placeholder="Username..." 
+          onChange={e => {
+            setUsername=(e.target.value)
+          }}
         />
         <input 
           type="submit" 
