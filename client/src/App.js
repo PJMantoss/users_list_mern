@@ -38,9 +38,18 @@ function App() {
         })}
       </div>
       <form>
-        <input type="text" placeholder="Name..." />
-        <input type="number" placeholder="Age..." />
-        <input type="text" placeholder="Username..." />
+        <input 
+          type="text" 
+          placeholder="Name..." 
+        />
+        <input 
+          type="number" 
+          placeholder="Age..." 
+        />
+        <input 
+          type="text" 
+          placeholder="Username..." 
+        />
         <input 
           type="submit" 
           value="Create User" 
