@@ -41,6 +41,9 @@ function App() {
         <input 
           type="text" 
           placeholder="Name..." 
+          onChange={e => {
+            setName=(e.target.value)
+          }}
         />
         <input 
           type="number" 
