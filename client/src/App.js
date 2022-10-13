@@ -11,7 +11,11 @@ function App() {
     })
   }, []);
 
-  const createUser = () => {};
+  const createUser = () => {
+    Axios.post("http://localhost:3001/createUser").then((res) => {
+      setListOfUsers(res.data);
+    })
+  };
 
   return (
     <div className="App">
